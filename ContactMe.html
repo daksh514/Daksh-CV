@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Daksh</title>
+  </head>
+  <body>
+    <h1>Contact me</h1>
+
+    <hr />
+
+    <h2>Contact Details</h2>
+    <ul>
+      <li>Phone - 1234567891</li>
+      <li>Email(Gmail) - aggayugk@gmail.com</li>
+
+      <h3>Go back to <a href="index.html">Home</a></h3>
+    </ul>
+    <hr />
+
+    <h3>Enter Your Details So That We Can Reach You</h3>
+
+    <form action= "mailto:mangalpradeepkumar@gmail.com" method="post" enctype="text/plain">
+      <p></p>
+      <label for="Name"> Enter Your Full Name </label>
+      <input type="text" name="FullName" id="Name" required/>
+    </p>
+    <p>
+      <label for="Number">Enter Your Mobile No.</label>
+      <input type="tel" id="Number" maxlength="10" minlength="10" required/>
+    </p>
+    <p>
+      <label for="Pass">Your password</label>
+      <input type="password" name="Pass" id="Pass" minlength="5" maxlength="15" required>
+    </p>
+<h3>Your Message</h3>
+    <!-- <label for="Message">Your Massege</label> -->
+    <p><textarea name="Message" id="Message" cols="30" rows="10" placeholder="Hi There!" required></textarea></p>
+    <label for="Color">Whats your favourite colour?</label>
+    <input type="color" name="Color" id="Color">
+    <p>
+      <label for="Cycle">Cycle</label>
+      <input type="radio" name="Vehicle" id="Cycle">
+    </p>
+    <p>
+      <label for="Car">Car</label>
+      <input type="radio" name="Vehicle" id="Car">
+    </p>
+    <p>
+      <label for="File">Additional File</label>
+      <input type="file" name="File" id="File">
+    </p>
+    <p>
+      <label for="Date">On which date you are filling this form</label>
+      <input type="date" name="Date" id="Date">
+    </p>
+    <p><BUtton type="submit">Submit Now</BUtton></p>
+    </form>
+  </body>
+</html>
